@@ -81,6 +81,10 @@ header{
     padding: 0px 35%;
     
 }
+.subheader a{
+   text-decoration: none;
+    
+}
 .subheader h3{
     color: var(--secundaria);
     font-family: 'Kanit', sans-serif;
