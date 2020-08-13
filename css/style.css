@@ -79,7 +79,6 @@ header{
     width: 100%;
     margin-top: 200px;
     padding: 0px 35%;
-    
 }
 .subheader a{
    text-decoration: none;
@@ -88,7 +87,7 @@ header{
 .subheader h3{
     color: var(--secundaria);
     font-family: 'Kanit', sans-serif;
-    font-size: 30px;
+    font-size: 150%;
     text-transform: uppercase;
     font-weight: 300;
     cursor: pointer;
@@ -199,14 +198,26 @@ footer h4{
     margin-top: 20px;
     height: 50px;
     border: 1px solid #cccccc;
-
+    font-family: 'Kanit', sans-serif;
+    padding-left: 20px;
 }
 .contatos textarea{
     width: 100%;
     height:  180px;
     margin-top: 20px;
     border: 1px solid #cccccc;
+    font-family: 'Kanit', sans-serif;
+    padding: 10px 20px;
 }
+.contatos input::placeholder{
+    font-family: 'Kanit', sans-serif;
+    padding-left: 20px;
+}
+.contatos textarea::placeholder{
+    font-family: 'Kanit', sans-serif;
+    padding: 10px 20px;
+}
+
 .contatos .enviar{
     margin-top: 20px;
     background-color: var(--secundaria);
@@ -298,8 +309,13 @@ footer h4{
     }
     .descricao{
         width: 100%;
+        text-align: center;
+    } 
+    .subheader{
+        width: 100%;
+        margin-top: 200px;
+        padding: 20px 20%;
     }
-   
 }
 @media(max-width: 850px){
     .left{
